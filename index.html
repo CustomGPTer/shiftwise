@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shiftwise: private timesheets and pay for UK hourly and day-rate workers</title>
+<meta name="description" content="Shiftwise is a free Android timesheet app for UK hourly and day-rate workers: GPS arrival prompts, an honest shift record with reasons for every change, pay, overtime, mileage and CIS, and PDF timesheets. No account, adverts or analytics.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/shiftwise/">
+<meta name="theme-color" content="#f3f1ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1114" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Shiftwise">
+<meta property="og:title" content="Shiftwise: private timesheets and pay for UK hourly and day-rate workers">
+<meta property="og:description" content="Shiftwise is a free Android timesheet app for UK hourly and day-rate workers: GPS arrival prompts, an honest shift record with reasons for every change, pay, overtime, mileage and CIS, and PDF timesheets. No account, adverts or analytics.">
+<meta property="og:url" content="https://customgpter.github.io/shiftwise/">
+<meta property="og:image" content="https://customgpter.github.io/shiftwise/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Shiftwise&#x27;s home screen: clocked in at Riverside site, the shift time running and the pay earned so far">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Shiftwise","url":"https://customgpter.github.io/shiftwise/","description":"Shiftwise is a free Android timesheet app for UK hourly and day-rate workers: GPS arrival prompts, an honest shift record with reasons for every change, pay, overtime, mileage and CIS, and PDF timesheets. No account, adverts or analytics.","applicationCategory":"BusinessApplication","operatingSystem":"Android 10 or later","softwareVersion":"1.0","downloadUrl":"https://github.com/CustomGPTer/shiftwise/releases/latest/download/Shiftwise.apk","releaseNotes":"https://customgpter.github.io/shiftwise/releases.html","offers":{"@type":"Offer","price":"0","priceCurrency":"GBP"},"inLanguage":"en-GB","image":"https://customgpter.github.io/shiftwise/assets/og.png","featureList":["Arrival prompts by GPS","Early for a brew?","A grace period for leaving","Always in reach","Calendar and list","Corrections with reasons","Copy a week","Hourly or day rates","Overtime and enhanced rates","Real time, real money","Travel time","Mileage"],"author":{"@type":"Person","name":"Jonathan Jackson"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Shiftwise really free?","acceptedAnswer":{"@type":"Answer","text":"Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked."}},{"@type":"Question","name":"Is it on Google Play?","acceptedAnswer":{"@type":"Answer","text":"No. Shiftwise is a personal project and is downloaded from this site as an Android app file. It needs Android 10 or later."}},{"@type":"Question","name":"Why does it ask for location all the time?","acceptedAnswer":{"@type":"Answer","text":"Android only lets an app notice you arriving at or leaving a site while it is closed if it has location all the time. Shiftwise uses it to watch your saved site boundaries. If you would rather not allow it, manual clocking still works, and you can turn automatic clocking on later."}},{"@type":"Question","name":"What about battery settings?","acceptedAnswer":{"@type":"Answer","text":"Set Shiftwise's battery use to Unrestricted so Android delivers clock events on time. On Samsung, also add it to Never sleeping apps. The app has guidance for Samsung, Xiaomi, OnePlus and Huawei. Android can still delay background events; opening Shiftwise catches up with anything it missed."}},{"@type":"Question","name":"What if I arrive early or leave for lunch?","acceptedAnswer":{"@type":"Answer","text":"Your arrival is kept, but pay starts at your scheduled start unless you choose to be paid from arrival. The timeline shows the early, unpaid time. Leave and come back within the grace time and it stays one shift. Both can be changed per site."}},{"@type":"Question","name":"Does it work without signal?","acceptedAnswer":{"@type":"Answer","text":"Yes. Clocking, sites, pay and timesheets all work offline. Maps and address searches need a connection, and so does the optional bank-holiday refresh from GOV.UK."}},{"@type":"Question","name":"Can I fix a missed or wrong shift?","acceptedAnswer":{"@type":"Answer","text":"Yes. Add a shift, or change its times and breaks, and give a reason. The original clock times and the full history stay with it, and edited shifts carry a small mark in the app and on the timesheet, which you can hide in Settings."}},{"@type":"Question","name":"What happens when HMRC changes a rate?","acceptedAnswer":{"@type":"Answer","text":"Add the new rate with the date it starts, in Settings, Rates. Older shifts keep the rate that applied at the time. If the date is in the past, Shiftwise shows which shifts and journeys change, and by how much, before you apply it."}},{"@type":"Question","name":"How do I keep a safe copy of my records?","acceptedAnswer":{"@type":"Answer","text":"Open Settings, Backup and save a .shiftwise file somewhere you control, with a password if you like. You can also choose a folder for daily or weekly copies, and the newest ten are kept. Restoring shows a preview and asks before it replaces anything."}},{"@type":"Question","name":"How do I get new versions?","acceptedAnswer":{"@type":"Answer","text":"Download the new file from this site and install it over the old one. Do not uninstall first: uninstalling removes the app's private records."}},{"@type":"Question","name":"Who made it?","acceptedAnswer":{"@type":"Answer","text":"Shiftwise is made by Jonathan Jackson, an independent developer in the United Kingdom. It is not connected with HMRC, GOV.UK, your employer or any payroll company."}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="Shiftwise home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#0F1114"/><path d="M54 85C54 85 29 64 29 47C29 15 79 15 79 47C79 64 54 85 54 85Z" fill="#FFB020"/><circle cx="54" cy="47" r="15" fill="#0F1114"/><path d="M54 37V47L61 43" stroke="#FFB020" stroke-width="3" stroke-linecap="round" fill="none"/></svg><span>Shiftwise</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="https://github.com/CustomGPTer/shiftwise/releases/latest/download/Shiftwise.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
+</div>
+</header>
+<main id="main">
+<div class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<h1>A good day&#x27;s work. Every hour counted.</h1>
+<p class="lede">Shiftwise keeps your working hours, sites and pay together on your phone. It notices when you reach site, records the real time you arrived, and shows what you have earned as the day goes on. At the end of the week it hands you a clean PDF timesheet.</p><p class="lede">It is built for UK hourly and day-rate workers: construction, agency work, trades and shifts. It is free, with no account, no adverts and no analytics, and your records stay on your phone.</p>
+
+<p class="get" id="download"><a class="button" href="https://github.com/CustomGPTer/shiftwise/releases/latest/download/Shiftwise.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a><a class="aside" href="#install">How to install</a></p>
+<ul class="pills"><li>Version 1.0</li><li>Android 10 or later</li><li>54 MB</li></ul>
+<p class="facts">Free, with nothing to unlock. No adverts, no account with the developer, no tracking. <a href="compare.html">Compare</a> or read the <a href="releases.html">release notes</a>.</p>
+<p class="facts">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway.</p>
+</div>
+<div class="hero-phone"><div class="phone"><img src="./assets/screens/home.png" alt="Home while you&#x27;re on shift: the time running, pay so far, and when you arrived and were paid from." width="393" height="852" fetchpriority="high"></div></div>
+</div>
+</div>
+
+<section class="promises" aria-label="In short">
+<div class="wrap"><ul><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No adverts</b><span>None in the app and none on this site.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>No account</b><span>Open it, add your site and start work.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>UK pay tools</b><span>Overtime, bank holidays, mileage rates and CIS.</span></span></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.6 12.4l2.3 2.3 4.5-4.9"/></svg><span><b>Honest records</b><span>Every correction keeps the original and a reason.</span></span></li></ul></div>
+</section>
+
+<section id="screens" aria-labelledby="screens-h">
+<div class="wrap">
+<h2 id="screens-h">A look inside</h2>
+<p class="intro">These are the real screens, drawn by Shiftwise&#x27;s own screen tests with a made-up site and week of work. Swipe or scroll sideways to see them all.</p>
+<div class="gallery" tabindex="0" role="region" aria-label="Screens from Shiftwise"><figure class="shot"><div class="phone"><img src="./assets/screens/home.png" alt="Home while you&#x27;re on shift: the time running, pay so far, and when you arrived and were paid from." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Home while you&#x27;re on shift: the time running, pay so far, and when you arrived and were paid from.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/shifts.png" alt="Shifts: every recorded day on a calendar, or as a list, filtered by site." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Shifts: every recorded day on a calendar, or as a list, filtered by site.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/detail.png" alt="A shift in full: arrived, paid from and left on one timeline, with the unpaid break explained." width="393" height="852" loading="eager" decoding="async"></div><figcaption>A shift in full: arrived, paid from and left on one timeline, with the unpaid break explained.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/pay.png" alt="Pay for the week, month or tax year, with an hours chart and site totals." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Pay for the week, month or tax year, with an hours chart and site totals.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/reports.png" alt="The PDF timesheet, previewed before you save or share it." width="393" height="852" loading="eager" decoding="async"></div><figcaption>The PDF timesheet, previewed before you save or share it.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/rates.png" alt="Rates that remember their dates, so a new mileage rate never rewrites last year&#x27;s claims." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Rates that remember their dates, so a new mileage rate never rewrites last year&#x27;s claims.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/sites.png" alt="Your sites, each with its own pin, radius, pay rate and working hours." width="393" height="852" loading="eager" decoding="async"></div><figcaption>Your sites, each with its own pin, radius, pay rate and working hours.</figcaption></figure><figure class="shot"><div class="phone"><img src="./assets/screens/light.png" alt="The same home screen in the light theme. Dark, light or follow the phone." width="393" height="852" loading="eager" decoding="async"></div><figcaption>The same home screen in the light theme. Dark, light or follow the phone.</figcaption></figure></div>
+</div>
+</section>
+
+<section id="how" aria-labelledby="how-h">
+<div class="wrap">
+<h2 id="how-h">How it works</h2>
+<p class="intro">Set up a site once. After that, your working day adds itself up.</p>
+<ol class="steps"><li><h3>Choose your site</h3><p>Drop a pin, set the arrival radius, and add your rate and working hours. Every site can have its own.</p></li><li><h3>Clock your day</h3><p>When you arrive, Shiftwise asks. Ignore it for five minutes and it records your real arrival time. Manual clocking is always there too.</p></li><li><h3>Hand in your hours</h3><p>Check the timeline and your pay, then save a PDF timesheet or a CSV. Corrections keep the original and a reason.</p></li></ol>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">Everything is in, and all of it is free</h2>
+<p class="intro">Nothing below is held back for a paid tier, because there is no paid tier.</p>
+<div class="groups"><div class="group"><h3>Clocking</h3><dl><div><dt>Arrival prompts by GPS</dt><dd>Shiftwise notices when you reach a site, asks first, and confirms your real arrival time if you don't answer within five minutes.</dd></div><div><dt>Early for a brew?</dt><dd>Your arrival and your paid start are shown apart. By default pay starts at your scheduled time, and the early minutes are shown as unpaid.</dd></div><div><dt>A grace period for leaving</dt><dd>Pop off site and come back within the grace time, ten minutes unless you change it, and the same shift carries on.</dd></div><div><dt>Always in reach</dt><dd>Manual clocking, breaks, a notification while you work, two home-screen widgets and a quick-settings tile.</dd></div></dl></div><div class="group"><h3>Records you can explain</h3><dl><div><dt>Calendar and list</dt><dd>Every recorded day by month or as a list, with site filters and a timeline for each shift.</dd></div><div><dt>Corrections with reasons</dt><dd>Add a missed shift or fix a time, and say why. The original clock times and every change stay in the history.</dd></div><div><dt>Copy a week</dt><dd>When the pattern repeats, copy a finished week in one tap.</dd></div></dl></div><div class="group"><h3>Pay that adds up</h3><dl><div><dt>Hourly or day rates</dt><dd>Your own pay period and week start, live earnings, and totals for each site, week, month and tax year.</dd></div><div><dt>Overtime and enhanced rates</dt><dd>Optional daily and weekly overtime, and weekend, night and regional bank-holiday rates, without counting the same minute twice.</dd></div><div><dt>Real time, real money</dt><dd>Overnight shifts and the clocks going forward or back are counted in real elapsed time, and money is rounded once per line.</dd></div></dl></div><div class="group"><h3>Travel, mileage and CIS</h3><dl><div><dt>Travel time</dt><dd>Optional paid travel and unpaid first minutes, set per site.</dd></div><div><dt>Mileage</dt><dd>Saved distances or a GPS-tracked journey, with HMRC car and van tiers by tax year, and motorcycle and bicycle rates.</dd></div><div><dt>CIS and allowances</dt><dd>Day allowances and CIS deductions at 20%, 30% or gross.</dd></div><div><dt>Dated rates</dt><dd>Government and pay rates carry the date they start. A backdated change shows exactly which shifts it affects, and by how much, before you apply it.</dd></div></dl></div><div class="group"><h3>Timesheets and checks</h3><dl><div><dt>PDF and CSV</dt><dd>A clean PDF timesheet with period and site totals, and a CSV with the exact times behind it.</dd></div><div><dt>Supervisor sign-off</dt><dd>Optional on-screen signatures, which clear themselves if the timesheet changes afterwards.</dd></div><div><dt>Payslip check and photos</dt><dd>Compare a payslip with what Shiftwise worked out, keep photos with a shift, and keep separate employers apart.</dd></div></dl></div><div class="group"><h3>Private by design</h3><dl><div><dt>No account, no tracking</dt><dd>No adverts, analytics or crash reporting. Your records stay in the app's private storage.</dd></div><div><dt>Locked and backed up</dt><dd>A PIN and your phone's fingerprint or face unlock, and password-encrypted backups to a folder you choose.</dd></div></dl></div></div>
+</div>
+</section>
+
+<section id="privacy" aria-labelledby="privacy-h">
+<div class="wrap">
+<h2 id="privacy-h">Your working day is your business</h2>
+<ul class="plain"><li><h3>No account, no tracking</h3><p>No sign-up, adverts, analytics or crash reporting. The developer receives nothing.</p></li><li><h3>Clock events, not a trail</h3><p>Shiftwise records when you arrive and leave a site, not everywhere you go. A route is kept only for a GPS mileage journey you start.</p></li><li><h3>Backups you control</h3><p>Android's cloud backup is off. Backups go only where you save them, with a password if you want one.</p></li></ul>
+</div>
+</section>
+
+<section id="install" aria-labelledby="install-h">
+<div class="wrap">
+<h2 id="install-h">Installing and updating</h2>
+<p class="intro">Shiftwise is not on Google Play, so your phone asks a couple of extra questions the first time.</p>
+<ol class="steps"><li><h3>Download the app file</h3><p>Tap Download on your phone. The file is called Shiftwise.apk and is about 54 MB. If Chrome says the file might be harmful, choose Download anyway.</p></li><li><h3>Allow the install</h3><p>Open the file. The first time, Android asks you to allow your browser to install apps. Allow it, go back and tap Install. If Google Play Protect steps in, choose More details, then Install anyway.</p></li><li><h3>Updating later</h3><p>Download the new file from this site and install it over the old one. Shiftwise keeps every shift, site and setting. Keep a current backup from Settings, Backup before you change phones.</p></li></ol>
+<p class="after-table">Version 1.0, released 23 November 2026. See the <a href="releases.html">release notes</a>, or <a href="releases.html#checking">check your download</a>.</p>
+</div>
+</section>
+
+<section id="questions" aria-labelledby="questions-h">
+<div class="wrap">
+<h2 id="questions-h">Questions</h2>
+<div class="faq"><details><summary>Is Shiftwise really free?</summary><p>Yes. There is no paid version, no subscription and no adverts, and nothing in the app is locked.</p></details><details><summary>Is it on Google Play?</summary><p>No. Shiftwise is a personal project and is downloaded from this site as an Android app file. It needs Android 10 or later.</p></details><details><summary>Why does it ask for location all the time?</summary><p>Android only lets an app notice you arriving at or leaving a site while it is closed if it has location all the time. Shiftwise uses it to watch your saved site boundaries. If you would rather not allow it, manual clocking still works, and you can turn automatic clocking on later.</p></details><details><summary>What about battery settings?</summary><p>Set Shiftwise's battery use to Unrestricted so Android delivers clock events on time. On Samsung, also add it to Never sleeping apps. The app has guidance for Samsung, Xiaomi, OnePlus and Huawei. Android can still delay background events; opening Shiftwise catches up with anything it missed.</p></details><details><summary>What if I arrive early or leave for lunch?</summary><p>Your arrival is kept, but pay starts at your scheduled start unless you choose to be paid from arrival. The timeline shows the early, unpaid time. Leave and come back within the grace time and it stays one shift. Both can be changed per site.</p></details><details><summary>Does it work without signal?</summary><p>Yes. Clocking, sites, pay and timesheets all work offline. Maps and address searches need a connection, and so does the optional bank-holiday refresh from GOV.UK.</p></details><details><summary>Can I fix a missed or wrong shift?</summary><p>Yes. Add a shift, or change its times and breaks, and give a reason. The original clock times and the full history stay with it, and edited shifts carry a small mark in the app and on the timesheet, which you can hide in Settings.</p></details><details><summary>What happens when HMRC changes a rate?</summary><p>Add the new rate with the date it starts, in Settings, Rates. Older shifts keep the rate that applied at the time. If the date is in the past, Shiftwise shows which shifts and journeys change, and by how much, before you apply it.</p></details><details><summary>How do I keep a safe copy of my records?</summary><p>Open Settings, Backup and save a .shiftwise file somewhere you control, with a password if you like. You can also choose a folder for daily or weekly copies, and the newest ten are kept. Restoring shows a preview and asks before it replaces anything.</p></details><details><summary>How do I get new versions?</summary><p>Download the new file from this site and install it over the old one. Do not uninstall first: uninstalling removes the app's private records.</p></details><details><summary>Who made it?</summary><p>Shiftwise is made by Jonathan Jackson, an independent developer in the United Kingdom. It is not connected with HMRC, GOV.UK, your employer or any payroll company.</p></details></div>
+</div>
+</section>
+
+<section class="closing" aria-labelledby="closing-h">
+<div class="wrap">
+<div><h2 id="closing-h">Make every hour count</h2><p>Free, with no adverts and nothing to unlock. Made by the developer of several other free Android apps: <a href="more-apps.html">see them all</a>.</p></div>
+<a class="button" href="https://github.com/CustomGPTer/shiftwise/releases/latest/download/Shiftwise.apk"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download for Android</a>
+</div>
+</section>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<a class="brand" href="./" aria-label="Shiftwise home"><svg viewBox="0 0 108 108" aria-hidden="true"><rect width="108" height="108" rx="24" fill="#0F1114"/><path d="M54 85C54 85 29 64 29 47C29 15 79 15 79 47C79 64 54 85 54 85Z" fill="#FFB020"/><circle cx="54" cy="47" r="15" fill="#0F1114"/><path d="M54 37V47L61 43" stroke="#FFB020" stroke-width="3" stroke-linecap="round" fill="none"/></svg><span>Shiftwise</span></a>
+<p>&copy; 2026 Jonathan Jackson. Shiftwise is an independent app.</p>
+<p>This site uses no cookies and no tracking.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
+</div>
+<nav aria-label="The app"><h2>The app</h2><ul>
+<li><a href="./">Home</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
+<li><a href="https://github.com/CustomGPTer/shiftwise/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
