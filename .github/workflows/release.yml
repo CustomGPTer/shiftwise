@@ -35,6 +35,6 @@ jobs:
           files=$(awk '{print $2}' SHA256SUMS)
           extra=""
           if [ "${{ inputs.prerelease }}" = "true" ]; then extra="--prerelease"; fi
-          gh release create "v${{ inputs.version }}" $files --target main --title "Shiftwise ${{ inputs.version }}" --notes-file NOTES.md $extra
+          gh release create "v${{ inputs.version }}" $files --target main --title "Shiftwise v${{ inputs.version }} — Private timesheets and pay for Android" --notes-file NOTES.md $extra
         env:
           GH_TOKEN: ${{ github.token }}
