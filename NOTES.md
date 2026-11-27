@@ -1,15 +1,14 @@
-Shiftwise 1.0.2 fixes clocking in away from site and tells you when it clocks you in or out by itself. Install it over 1.0.1: your shifts, sites and settings are kept.
+Shiftwise 1.0.3 fixes late automatic clock-ins. Install it over 1.0.2: your shifts, sites and settings are kept.
 
-- **Clocking in away from site fixed.** It no longer clocks you straight back out. Shiftwise now asks before clocking you in when it can see you're not at the site.
-- **0h 00m shifts removed.** Empty shifts left by that fault are cleared on first launch.
-- **"You have been clocked in" notice** whenever Shiftwise clocks you in by itself, with an Undo button if you're not working.
-- **"You have been clocked out" notice** when it clocks you out after you leave site.
+- **Arrivals no longer missed.** Android could report arriving on site hours late. Shiftwise now checks your location itself every few minutes before and during your working hours, so you are clocked in from when you actually arrive.
+- **More accurate arrival times.** The arrival time is now when your phone crossed the site boundary, not when Android got round to telling Shiftwise.
+- **Battery-friendly.** The frequent checks only run around your scheduled working hours, and only until you are clocked in.
 
-**Requires Android 10 or later.** Signed with the same key as 1.0.1, so it installs straight over it. Do not uninstall first.
+**Requires Android 10 or later.** Signed with the same key as 1.0.2, so it installs straight over it. Do not uninstall first.
 
 Download the asset **Shiftwise.apk**.
 
-SHA-256: `3f0ec8d49faf2e832030561f26ec4368a9451f840b31a33faccc449af93e780d`
+SHA-256: `ed98b45f667943b6edcc55fb0fa9bb51d92e17565a6b12d27e2ef7b864dbbcf4`
 
 Website: https://customgpter.github.io/shiftwise/
 
